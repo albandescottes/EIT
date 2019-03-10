@@ -1,5 +1,5 @@
 import sys
-
+# dictionnaire des mots qui peuvent être changé
 def createDic():
 	with open('POSTags_PTB_Universal_Linux.txt') as f:
 		universel = f.readlines()
@@ -13,6 +13,7 @@ def createDic():
 		dic[split[0]] = split[1]
 	return dic
 
+# change le fichier avec les tags universels
 def createNewFile(file, dic):
 	print(file)
 	split = file.split('.')

@@ -6,18 +6,19 @@ if(len(sys.argv) != 2):
 else:
 	print(sys.argv[1])
 	print(' > ')
+	# création de l'output
 	split = sys.argv[1].split('.')
 	newFile = ''
 	for i in range(len(split) - 1):
 		newFile += split[i] + '.'
 	newFile += 'txt.ref.ne'
-
+	# lecture de l'input
 	with open(sys.argv[1]) as f:
 		lines = f.readlines()
 		f.close()
 	print(newFile)
 	file = open(newFile, 'w')
-
+	# ecriture de l'output
 	for line in lines:
 		line = re.sub(r"<TIMEX.*?>", "", line)
 		line = re.sub(r"<\/TIMEX>", "", line)
@@ -49,11 +50,12 @@ else:
 					else:
 						file.write(word + '_O\n')
 	file.close()
+	#lecture du fichier temporaire
 	with open(newFile) as f:
 		lines = f.readlines()
 		f.close()
 	file = open(newFile, 'w')
-
+	#ecriture du fichier final
 	for line in lines:
 		word = line.replace("\n", "")
 		split = word.split('_')

@@ -6,10 +6,12 @@ else:
 	out = []
 	print(sys.argv[1])
 	print(' > ')
+	#lecture de l'input
 	file = sys.argv[1].split('.')
 	with open(sys.argv[1]) as f:
 		lines = f.readlines()
 		f.close()
+	# création d'une array des mots
 	for line in lines:
 		split = line.split('\t')
 		if(len(split) != 1):
@@ -30,7 +32,7 @@ else:
 						out.append(split[1] + '_' + reresplit[1])
 		else:
 			out.append('\n')
-
+	# fichier temporaire
 	newFile = ''
 	for i in range(len(file) - 2):
 		newFile += file[i] + '.'
@@ -41,12 +43,12 @@ else:
 		if(word != '\n'):
 			file.write(word + '\n')
 	file.close()
-
+	# lecture des mots
 	with open(newFile) as f:
 		lines = f.readlines()
 		f.close()
 	file = open(newFile, 'w')
-
+	#écriture des mots en phrase
 	for line in lines:
 		word = line.replace("\n", "")
 		split = word.split('_')
