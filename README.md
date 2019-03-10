@@ -2,6 +2,11 @@
 
 ## Partie II
 
+Obtention du résultat CEA List
+```shell
+$ analyzeText -l eng wsj_0010_sample.txt > wsj_0010_sample.txt.conll
+```
+
 Extraction d'entités nommées
 
 Modifier le fichier ii_2_script_extraction.py dans le dossier src\ii_iii afin de changer le chemin vers le fichier dont on souhaite extraire les entités.
@@ -16,10 +21,6 @@ Ensuite exécuter ce script  et rediriger la sortie vers un fichier résultat:
 $ python3 ii_2_script_extraction.py > ii_2_results.txt
 ```
 
-Obtention du résultat CEA List
-```shell
-$ analyzeText -l eng wsj_0010_sample.txt > wsj_0010_sample.txt.conll
-```
 
 Transformation pour le CEA List
 ```shell
