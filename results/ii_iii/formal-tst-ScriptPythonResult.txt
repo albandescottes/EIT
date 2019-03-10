@@ -1,0 +1,66 @@
++---------------------------------------+---------------------------+--------------------+--------------------------+
+|             Entité nommée             |            Type           | Nombre d'occurence | Proportion dans le texte |
++---------------------------------------+---------------------------+--------------------+--------------------------+
+|                   44                  |        Numex.NUMBER       |         1          |    1.2195121951219512    |
+|                  five                 |        Numex.NUMBER       |         2          |    2.4390243902439024    |
+|                 1970s                 |        Numex.NUMBER       |         1          |    1.2195121951219512    |
+|                  1979                 |        Numex.NUMBER       |         2          |    2.4390243902439024    |
+|                   50                  |        Numex.NUMBER       |         1          |    1.2195121951219512    |
+|               1 million               |        Numex.NUMBER       |         1          |    1.2195121951219512    |
+|                  six                  |        Numex.NUMBER       |         1          |    1.2195121951219512    |
+|                  one                  |        Numex.NUMBER       |         2          |    2.4390243902439024    |
+|                  One                  |        Numex.NUMBER       |         1          |    1.2195121951219512    |
+|                 three                 |        Numex.NUMBER       |         1          |    1.2195121951219512    |
+|               late 1970s              |       DateTime.DATE       |         1          |    1.2195121951219512    |
+|              44 years old             |       DateTime.TIME       |         1          |    1.2195121951219512    |
+|               $1 million              |        Numex.NUMEX        |         1          |    1.2195121951219512    |
+|               six years               |        Numex.NUMEX        |         1          |    1.2195121951219512    |
+|   Securities and Exchange Commission  | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+|               the House               | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+|                  SEC                  | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+|                 Lloyd                 | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+|                 Senate                | Organization.ORGANIZATION |         2          |    2.4390243902439024    |
+|                Democrat               | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+|            American Express           | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+|     National Institutes of Health     | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+|      Food and Drug Administration     | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+|    Service Employees International    | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+| Service Employees International Union | Organization.ORGANIZATION |         1          |    1.2195121951219512    |
+|              White House              | Organization.ORGANIZATION |         2          |    2.4390243902439024    |
+|          Consuela Washington          |       Person.PERSON       |         1          |    1.2195121951219512    |
+|                Clinton                |       Person.PERSON       |         10         |    12.195121951219512    |
+|               Washington              |       Person.PERSON       |         6          |    7.317073170731707     |
+|              John Dingell             |       Person.PERSON       |         1          |    1.2195121951219512    |
+|                Dingell                |       Person.PERSON       |         1          |    1.2195121951219512    |
+|              Frank Newman             |       Person.PERSON       |         1          |    1.2195121951219512    |
+|                Treasury               |       Person.PERSON       |         1          |    1.2195121951219512    |
+|                 Newman                |       Person.PERSON       |         1          |    1.2195121951219512    |
+|               Mr. Newman              |       Person.PERSON       |         1          |    1.2195121951219512    |
+|       Secretary-designate Lloyd       |       Person.PERSON       |         1          |    1.2195121951219512    |
+|                Bentsen                |       Person.PERSON       |         1          |    1.2195121951219512    |
+|              Mr. Bentsen              |       Person.PERSON       |         1          |    1.2195121951219512    |
+|            Samuel Sessions            |       Person.PERSON       |         1          |    1.2195121951219512    |
+|             Peter Tarnoff             |       Person.PERSON       |         1          |    1.2195121951219512    |
+|               Tim Wirth               |       Person.PERSON       |         1          |    1.2195121951219512    |
+|               Joan Spero              |       Person.PERSON       |         1          |    1.2195121951219512    |
+|                  Bush                 |       Person.PERSON       |         1          |    1.2195121951219512    |
+|            Bernadine Healy            |       Person.PERSON       |         1          |    1.2195121951219512    |
+|             David Kessler             |       Person.PERSON       |         1          |    1.2195121951219512    |
+|             Mickey Kantor             |       Person.PERSON       |         1          |    1.2195121951219512    |
+|              Robert Kyle              |       Person.PERSON       |         1          |    1.2195121951219512    |
+|                Matthew                |       Person.PERSON       |         1          |    1.2195121951219512    |
+|               Gus Speth               |       Person.PERSON       |         1          |    1.2195121951219512    |
+|             Kitty Higgins             |       Person.PERSON       |         1          |    1.2195121951219512    |
+|              Sander Levin             |       Person.PERSON       |         1          |    1.2195121951219512    |
+|              Jerry Palast             |       Person.PERSON       |         1          |    1.2195121951219512    |
+|            Office Building            |       Person.PERSON       |         1          |    1.2195121951219512    |
+|                  U.S.                 |     Location.LOCATION     |         2          |    2.4390243902439024    |
+|              Soviet Union             |     Location.LOCATION     |         1          |    1.2195121951219512    |
+|                  N.Y.                 |     Location.LOCATION     |         1          |    1.2195121951219512    |
+|                 House                 |     Location.LOCATION     |         1          |    1.2195121951219512    |
+|                 Mich.                 |     Location.LOCATION     |         1          |    1.2195121951219512    |
+|           Harvard Law School          |     Location.LOCATION     |         1          |    1.2195121951219512    |
+|                Colorado               |     Location.LOCATION     |         1          |    1.2195121951219512    |
+|                Michigan               |     Location.LOCATION     |         1          |    1.2195121951219512    |
+|               Separately              |     Location.LOCATION     |         1          |    1.2195121951219512    |
++---------------------------------------+---------------------------+--------------------+--------------------------+

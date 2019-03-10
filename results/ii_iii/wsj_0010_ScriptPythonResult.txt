@@ -1,0 +1,12 @@
++----------------------+---------------------------+--------------------+--------------------------+
+|    Entité nommée     |            Type           | Nombre d'occurence | Proportion dans le texte |
++----------------------+---------------------------+--------------------+--------------------------+
+|         125          |        Numex.NUMBER       |         1          |    11.11111111111111     |
+| National Association | Organization.ORGANIZATION |         1          |    11.11111111111111     |
+|         Rust         | Organization.ORGANIZATION |         2          |    22.22222222222222     |
+|         Boca         |       Person.PERSON       |         1          |    11.11111111111111     |
+|       Hoosier        |       Person.PERSON       |         1          |    11.11111111111111     |
+|      Boca Raton      |     Location.LOCATION     |         1          |    11.11111111111111     |
+|     Indianapolis     |     Location.LOCATION     |         1          |    11.11111111111111     |
+|      Rust Belt       |     Location.LOCATION     |         1          |    11.11111111111111     |
++----------------------+---------------------------+--------------------+--------------------------+
