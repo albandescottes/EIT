@@ -1,6 +1,21 @@
 # EIT
 
 ## Partie II
+
+Extraction d'entités nommées
+
+Modifier le fichier ii_2_script_extraction.py dans le dossier src\ii_iii afin de changer le chemin vers le fichier dont on souhaite extraire les entités.
+Ici, le fichier doit être au format xml.
+La ligne à modifier est la suivante :
+```shell
+tree = etree.parse("formal-tst.NE.key.04oct95_sample.txt.se.xml")
+```
+Ensuite exécuter ce script  et rediriger la sortie vers un fichier résultat:
+
+```shell
+$ python3 ii_2_script_extraction.py > ii_2_results.txt
+```
+
 Obtention du résultat CEA List
 ```shell
 $ analyzeText -l eng wsj_0010_sample.txt > wsj_0010_sample.txt.conll
@@ -54,6 +69,19 @@ $ python2 evaluate.py xxx.stanford xxx.ref
 Obtention du résultat Stanford NER
 ```shell
 $ java -mx600m -cp stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -textFile  formal-tst.NE.key.04oct95_small.txt > formal-tst.NE.key.04oct95_small.ner.standford 
+```
+
+Extraction d'entités nommées
+
+Modifier le fichier iv_2_script_extraction.py dans le dossier src\iv afin de changer le chemin vers le fichier dont on souhaite extraire les entités.
+La ligne à modifier est la suivante :
+```shell
+f = open("formal-tst.NE.key.04oct95_small.ner.stanford", "r")
+```
+Ensuite exécuter ce script  et rediriger la sortie vers un fichier résultat:
+
+```shell
+$ python3 iv_2_script_extraction.py > iv_2_results.txt
 ```
 
 ## Partie V
